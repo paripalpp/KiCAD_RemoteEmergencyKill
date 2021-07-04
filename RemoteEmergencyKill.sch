@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:RemoteEmergencyKill-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -110,4 +111,224 @@ Wire Wire Line
 Connection ~ 5050 1800
 Text Notes 5000 1400 0    50   ~ 0
 mode selecting section
+$Comp
+L Regulator_Linear:MCP1703A-3302_SOT23 U?
+U 1 1 60E1D575
+P 2200 3500
+F 0 "U?" H 2200 3742 50  0000 C CNN
+F 1 "MCP1703A-3302_SOT23" H 2200 3651 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2200 3700 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf" H 2200 3450 50  0001 C CNN
+	1    2200 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60E20B71
+P 2200 3900
+F 0 "#PWR?" H 2200 3650 50  0001 C CNN
+F 1 "GND" H 2205 3727 50  0000 C CNN
+F 2 "" H 2200 3900 50  0001 C CNN
+F 3 "" H 2200 3900 50  0001 C CNN
+	1    2200 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 3800 2200 3900
+$Comp
+L Device:C C?
+U 1 1 60E21441
+P 2700 3650
+F 0 "C?" H 2815 3696 50  0000 L CNN
+F 1 "10u" H 2815 3605 50  0000 L CNN
+F 2 "" H 2738 3500 50  0001 C CNN
+F 3 "~" H 2700 3650 50  0001 C CNN
+	1    2700 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60E24981
+P 1700 3650
+F 0 "C?" H 1815 3696 50  0000 L CNN
+F 1 "10u" H 1815 3605 50  0000 L CNN
+F 2 "" H 1738 3500 50  0001 C CNN
+F 3 "~" H 1700 3650 50  0001 C CNN
+	1    1700 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 3500 1700 3500
+Wire Wire Line
+	1700 3800 1700 3900
+Wire Wire Line
+	1700 3900 2200 3900
+Connection ~ 2200 3900
+Wire Wire Line
+	2500 3500 2700 3500
+Wire Wire Line
+	2700 3800 2700 3900
+Wire Wire Line
+	2700 3900 2200 3900
+$Comp
+L Device:D D?
+U 1 1 60E25521
+P 1350 3500
+F 0 "D?" H 1350 3283 50  0000 C CNN
+F 1 "D" H 1350 3374 50  0000 C CNN
+F 2 "" H 1350 3500 50  0001 C CNN
+F 3 "~" H 1350 3500 50  0001 C CNN
+	1    1350 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1700 3500 1500 3500
+Connection ~ 1700 3500
+Wire Wire Line
+	2700 3500 2800 3500
+Wire Wire Line
+	2800 3500 2800 3400
+Connection ~ 2700 3500
+$Comp
+L power:+3.3V #PWR?
+U 1 1 60E2741F
+P 2800 3400
+F 0 "#PWR?" H 2800 3250 50  0001 C CNN
+F 1 "+3.3V" H 2815 3573 50  0000 C CNN
+F 2 "" H 2800 3400 50  0001 C CNN
+F 3 "" H 2800 3400 50  0001 C CNN
+	1    2800 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Battery_Management:MCP73831-2-OT U?
+U 1 1 60E27F6E
+P 1750 1700
+F 0 "U?" H 1750 2181 50  0000 C CNN
+F 1 "MCP73831-2-OT" H 1750 2090 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 1800 1450 50  0001 L CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf" H 1600 1650 50  0001 C CNN
+	1    1750 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 60E33702
+P 2550 1800
+F 0 "BT?" H 2668 1896 50  0000 L CNN
+F 1 "Battery_Cell" H 2668 1805 50  0000 L CNN
+F 2 "" V 2550 1860 50  0001 C CNN
+F 3 "~" V 2550 1860 50  0001 C CNN
+	1    2550 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 1600 2550 1600
+Wire Wire Line
+	2550 1900 2550 2100
+Wire Wire Line
+	2550 2100 1750 2100
+Wire Wire Line
+	1750 2100 1750 2000
+Wire Wire Line
+	1750 2100 1750 2200
+Connection ~ 1750 2100
+$Comp
+L power:GND #PWR?
+U 1 1 60E365AF
+P 1750 2200
+F 0 "#PWR?" H 1750 1950 50  0001 C CNN
+F 1 "GND" H 1755 2027 50  0000 C CNN
+F 2 "" H 1750 2200 50  0001 C CNN
+F 3 "" H 1750 2200 50  0001 C CNN
+	1    1750 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 1600 2650 1600
+Connection ~ 2550 1600
+Wire Wire Line
+	2650 1600 2650 1500
+$Comp
+L power:+BATT #PWR?
+U 1 1 60E37A51
+P 2650 1500
+F 0 "#PWR?" H 2650 1350 50  0001 C CNN
+F 1 "+BATT" H 2665 1673 50  0000 C CNN
+F 2 "" H 2650 1500 50  0001 C CNN
+F 3 "" H 2650 1500 50  0001 C CNN
+	1    2650 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 60E38EF6
+P 1700 3250
+F 0 "D?" H 1700 3033 50  0000 C CNN
+F 1 "D" H 1700 3124 50  0000 C CNN
+F 2 "" H 1700 3250 50  0001 C CNN
+F 3 "~" H 1700 3250 50  0001 C CNN
+	1    1700 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1700 3400 1700 3500
+$Comp
+L power:+5V #PWR?
+U 1 1 60E39C29
+P 1700 3000
+F 0 "#PWR?" H 1700 2850 50  0001 C CNN
+F 1 "+5V" H 1715 3173 50  0000 C CNN
+F 2 "" H 1700 3000 50  0001 C CNN
+F 3 "" H 1700 3000 50  0001 C CNN
+	1    1700 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 3000 1700 3100
+$Comp
+L power:+5V #PWR?
+U 1 1 60E3B875
+P 1750 1300
+F 0 "#PWR?" H 1750 1150 50  0001 C CNN
+F 1 "+5V" H 1765 1473 50  0000 C CNN
+F 2 "" H 1750 1300 50  0001 C CNN
+F 3 "" H 1750 1300 50  0001 C CNN
+	1    1750 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 1300 1750 1400
+$Comp
+L Device:R R?
+U 1 1 60E3C1F9
+P 1150 1950
+F 0 "R?" H 1220 1996 50  0000 L CNN
+F 1 "R" H 1220 1905 50  0000 L CNN
+F 2 "" V 1080 1950 50  0001 C CNN
+F 3 "~" H 1150 1950 50  0001 C CNN
+	1    1150 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 1800 1150 1800
+Wire Wire Line
+	1150 2100 1750 2100
+Wire Wire Line
+	1200 3500 1100 3500
+$Comp
+L power:+BATT #PWR?
+U 1 1 60E3EA5A
+P 1100 3000
+F 0 "#PWR?" H 1100 2850 50  0001 C CNN
+F 1 "+BATT" H 1115 3173 50  0000 C CNN
+F 2 "" H 1100 3000 50  0001 C CNN
+F 3 "" H 1100 3000 50  0001 C CNN
+	1    1100 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 3000 1100 3500
+Text Label 1700 3500 0    50   ~ 0
+Reg_in
 $EndSCHEMATC
