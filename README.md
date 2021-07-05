@@ -18,6 +18,6 @@
 - RBS1MM40ATR
   - 超低Vfショットキーバリアダイオード、電源供給を5V(外部)とLiPoバッテリー(内蔵)で切り替える
   - [製品ページ](https://www.rohm.co.jp/products/diodes/schottky-barrier-diodes/ultra-low-vf/rb161mm-20-product)
-- MCP1792T-3302H/CB
-  - 低損失リニアレギュレータ、im920への電源供給用
-  - [datasheet](https://akizukidenshi.com/download/ds/microchip/mcp1792.pdf)
+- ADP151AUJZ-3.3
+  - 低雑音、低損失リニアレギュレータ、im920への電源供給用
+  - [datasheet](https://akizukidenshi.com/download/ds/analog/ADP151_jp.pdf)
