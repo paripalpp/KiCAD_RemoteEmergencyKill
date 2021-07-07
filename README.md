@@ -2,6 +2,10 @@
 
  遠隔緊急停止スイッチ用基板。子機と親機で共通の基盤を使用。
 
+## KiCADファイル
+
+ KiCADファイルを開くときは[KiCAD_libralies](https://github.com/paripalpp/KiCAD_libralies)を追加して下さい。
+
 ## 使用部品
 
 - interplan im920s
