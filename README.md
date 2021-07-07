@@ -10,8 +10,12 @@
 - JST XAコネクタ
   - 2.54mmピッチの圧着コネクタでサイド型を信号出力、電源に使用
   - [製品ページ](https://www.jst-mfg.com/product/detail.php?series=272)
-- 未定
-  - 1sell LiPoバッテリー
+- IS-1245T-G
+  - Switronicの基板用スライドスイッチ、電源スイッチに使用
+  - [datasheet](https://akizukidenshi.com/download/ds/switronic/IS-1245T-G.PDF)
+- LP401730
+  - 1sell LiPoバッテリー 150mA
+  - [datasheet](https://www.eemb.com/public/Download/Rechargeable-Lithium-Battery/Li-Polymer-Battery/Standard-Version/LP401730.pdf)
 - MCP73831-2ATI/OT
   - 単セルLiPoバッテリー充電コントローラicで子機のLiPoバッテリーを充電する
   - [datasheet](https://akizukidenshi.com/download/ds/microchip/mcp73831_73832.pdf)
