@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:RemoteEmergencyKill-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -343,17 +342,6 @@ F 1 "GND" H 8155 1477 50  0000 C CNN
 F 2 "" H 8150 1650 50  0001 C CNN
 F 3 "" H 8150 1650 50  0001 C CNN
 	1    8150 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR017
-U 1 1 60E45A91
-P 8650 4250
-F 0 "#PWR017" H 8650 4100 50  0001 C CNN
-F 1 "+5V" H 8665 4423 50  0000 C CNN
-F 2 "" H 8650 4250 50  0001 C CNN
-F 3 "" H 8650 4250 50  0001 C CNN
-	1    8650 4250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -875,17 +863,6 @@ Wire Wire Line
 Wire Wire Line
 	3300 4600 3300 4700
 $Comp
-L Connector:Conn_01x03_Female J2
-U 1 1 60E792F1
-P 9000 4450
-F 0 "J2" H 9028 4476 50  0000 L CNN
-F 1 "Conn_01x03_Female" H 9028 4385 50  0000 L CNN
-F 2 "Connector_JST_XA:S03B-XASK-1" H 9000 4450 50  0001 C CNN
-F 3 "~" H 9000 4450 50  0001 C CNN
-	1    9000 4450
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole H1
 U 1 1 60EB1A83
 P 9500 1000
@@ -905,6 +882,39 @@ F 1 "IM920c" H 5500 3824 50  0000 C CNN
 F 2 "interplan:IM920c" H 5500 3800 50  0001 C CNN
 F 3 "" H 5500 3800 50  0001 C CNN
 	1    5500 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR017
+U 1 1 61275944
+P 8650 4250
+F 0 "#PWR017" H 8650 4100 50  0001 C CNN
+F 1 "+3.3V" H 8665 4423 50  0000 C CNN
+F 2 "" H 8650 4250 50  0001 C CNN
+F 3 "" H 8650 4250 50  0001 C CNN
+	1    8650 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J3
+U 1 1 612783C8
+P 9000 4450
+F 0 "J3" H 9028 4426 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 9028 4335 50  0000 L CNN
+F 2 "Connector_JST:JST_XA_S02B-XASK-1_1x02_P2.50mm_Horizontal" H 9000 4450 50  0001 C CNN
+F 3 "~" H 9000 4450 50  0001 C CNN
+	1    9000 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J2
+U 1 1 612791FB
+P 9000 4350
+F 0 "J2" H 9028 4376 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 9028 4285 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Horizontal" H 9000 4350 50  0001 C CNN
+F 3 "~" H 9000 4350 50  0001 C CNN
+	1    9000 4350
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
