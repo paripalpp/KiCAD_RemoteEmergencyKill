@@ -1,4 +1,4 @@
-19641343588674074
+19654382211693933
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -315,12 +315,26 @@ battery CR-3032 coin cell vertical
 2
 2
 Battery_additional
+BatteryHolder_AT_BH-44F-5
+
+
+0
+2
+2
+Battery_additional
 LP401730
 
 
 0
 2
 2
+Boad_dev
+ESP32-DevKitC
+
+
+0
+38
+38
 Button_Switch_Keyboard
 SW_Cherry_MX_1.00u_PCB
 Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
@@ -17240,6 +17254,27 @@ S05B-XASK-1
 0
 5
 5
+Connector_JST_additional
+JST_JMC_20Pxx-JMCS
+
+
+0
+20
+20
+Connector_JST_additional
+JST_JMC_20Pxx-JMCS-B
+
+
+0
+20
+20
+Connector_Kailh
+Hot_plug_connector
+
+
+0
+2
+2
 Connector_Molex
 Molex_CLIK-Mate_502382-0270_1x02-1MP_P1.25mm_Vertical
 Molex CLIK-Mate series connector, 502382-0270 (http://www.molex.com/pdm_docs/sd/5023820270_sd.pdf), generated with kicad-footprint-generator
@@ -22847,6 +22882,20 @@ Connector PCBEdge molex EDGELOCK
 0
 8
 8
+Connector_PCB_to_PCB
+PCB_to_PCB_4_female
+
+
+0
+8
+4
+Connector_PCB_to_PCB
+PCB_to_PCB_4_male
+
+
+0
+4
+4
 Connector_Phoenix_GMSTB
 PhoenixContact_GMSTBA_2,5_2-G-7,62_1x02_P7.62mm_Horizontal
 Generic Phoenix Contact connector footprint for: GMSTBA_2,5/2-G-7,62; number of pins: 02; pin pitch: 7.62mm; Angled || order number: 1766233 12A 630V
@@ -77216,559 +77265,6 @@ Resistor Radial_Power series Radial pin pitch 7.37mm 10W length 16.1mm width 9mm
 0
 2
 2
-RobotClub_footprint
-7seg-silk
-
-
-0
-0
-0
-RobotClub_footprint
-AG12864E
-STN/FSTN LCD 128x64 dot https://www.digchip.com/datasheets/parts/datasheet/1121/AG-12864E-pdf.php
-AG12864E Graphics Display 128x64 Ampire
-0
-24
-20
-RobotClub_footprint
-AQM0802A-RN-GBW
-
-
-0
-9
-9
-RobotClub_footprint
-AQM1602XA
-
-
-0
-9
-9
-RobotClub_footprint
-AQM1602Y
-
-
-0
-9
-9
-RobotClub_footprint
-Adafruit_SSD1306
-Adafruit SSD1306 OLED 1.3 inch 128x64 I2C & SPI https://learn.adafruit.com/monochrome-oled-breakouts/downloads
-Adafruit SSD1306 OLED 1.3 inch 128x64 I2C & SPI 
-0
-8
-8
-RobotClub_footprint
-Adafruit_SSD1306_No_Mounting_Holes
-Adafruit SSD1306 OLED 1.3 inch 128x64 I2C & SPI https://learn.adafruit.com/monochrome-oled-breakouts/downloads
-Adafruit SSD1306 OLED 1.3 inch 128x64 I2C & SPI 
-0
-8
-8
-RobotClub_footprint
-CL-SB-13A-01
-
-
-0
-6
-4
-RobotClub_footprint
-CL-SB-22B-11
-
-
-0
-6
-6
-RobotClub_footprint
-CR2013-MI2120
-CR2013-MI2120 ILI9341 LCD Breakout http://pan.baidu.com/s/11Y990
-CR2013-MI2120 ILI9341 LCD Breakout
-0
-18
-14
-RobotClub_footprint
-DG85D-7021-75-1012
-
-
-0
-8
-4
-RobotClub_footprint
-DG85x-xx21-x5
-
-
-0
-8
-4
-RobotClub_footprint
-DO-214AC
-
-
-0
-2
-2
-RobotClub_footprint
-D_SOD-123W
-
-
-0
-2
-2
-RobotClub_footprint
-EA-eDIP128B-XXX
-LCD-graphical display with LED backlight 128x64 RS-232 I2C or SPI http://www.lcd-module.com/fileadmin/eng/pdf/grafik/edip128-6e.pdf
-LCD-graphical display with LED backlight 128x64 RS-232 I2C or SPI
-0
-32
-32
-RobotClub_footprint
-EA_DOGL128-6
-Graphical,Display,LCD,128x64 https://www.lcd-module.com/eng/pdf/grafik/dogl128-6e.pdf
-EA DOGL128
-0
-26
-26
-RobotClub_footprint
-EA_DOGM128-6
-Graphical,Display,LCD,128x64 https://www.lcd-module.de/eng/pdf/grafik/dogm128e.pdf
-EA DOGM128-6
-0
-26
-26
-RobotClub_footprint
-EA_DOGS104X-A
-LCD 4x10 character 3.3V VDD I2C or SPI http://www.lcd-module.com/fileadmin/eng/pdf/doma/dogs104e.pdf
-LCD 4x10 character 3.3V VDD I2C or SPI
-0
-14
-14
-RobotClub_footprint
-EA_DOGXL160-7
-Grapchical,Display,LCD,160x104 http://www.lcd-module.com/eng/pdf/grafik/dogxl160-7e.pdf
-EA_DOGXL160-7
-0
-22
-22
-RobotClub_footprint
-EA_DOGXL160-7_Backlight
-Grapchical,Display,LCD,160x104 http://www.lcd-module.com/eng/pdf/grafik/dogxl160-7e.pdf
-EA_DOGXL160-7_Backlight
-0
-22
-22
-RobotClub_footprint
-EA_T123X-I2C
-http://www.lcd-module.de/pdf/doma/t123-i2c.pdf
-3 Line 12 character wide alpha numeric LCD
-0
-6
-6
-RobotClub_footprint
-EA_eDIP160-XXX
-LCD-graphical display with LED backlight 160x104 RS-232 I2C or SPI http://www.lcd-module.com/fileadmin/eng/pdf/grafik/edip160-7e.pdf
-LCD-graphical display with LED backlight 160x104 RS-232 I2C or SPI
-0
-40
-40
-RobotClub_footprint
-EA_eDIP240-XXX
-LCD graphical display LED backlight 240x128 http://www.lcd-module.com/fileadmin/eng/pdf/grafik/edip240-7e.pdf
-LCD graphical display LED backlight 240x128
-0
-40
-40
-RobotClub_footprint
-EA_eDIP320X-XXX
-LCD display 320x340 RS-232 I2C or SPI http://www.lcd-module.com/fileadmin/eng/pdf/grafik/edip320-8e.pdf
-LCD display 320x340 RS-232 I2C or SPI
-0
-48
-48
-RobotClub_footprint
-EA_eDIPTFT32-XXX
-TFT-graphic display 320x240 16 bit colour with led backlight http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft32-ae.pdf
-TFT-graphic display 320x240 16 bit colour with led backlight
-0
-40
-40
-RobotClub_footprint
-EA_eDIPTFT43-ATC
-http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft43-ae.pdf
-TFT graphical display 480x272 16-bit colour with LED backlight
-0
-40
-40
-RobotClub_footprint
-EA_eDIPTFT43-XXX
-TFT graphical display 480x272 16-bit colour with LED backlight http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft43-ae.pdf
-TFT graphical display 480x272 16-bit colour with LED backlight
-0
-40
-40
-RobotClub_footprint
-EA_eDIPTFT57-XXX
-http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft57-ae.pdf
-TFT-graphic display 640x480 16 bit colour
-0
-48
-48
-RobotClub_footprint
-EA_eDIPTFT70-ATC
-TFT-graphical display 800x480 16-bit colours with capacitive touch panel http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft70-ae.pdf
-TFT-graphical display 800x480 16-bit colours with capacitive touch panel
-0
-48
-48
-RobotClub_footprint
-EA_eDIPTFT70-XXX
-TFT-graphical display 800x480 16-bit colours http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft70-ae.pdf
-TFT-graphical display 800x480 16-bit colours and touch display
-0
-48
-48
-RobotClub_footprint
-ERM19264
-STN/FSTN LCD 192x64 dot https://www.buydisplay.com/download/manual/ERM19264-1_Series_Datasheet.pdf
-ERM19264 Graphics Display 192x64
-0
-20
-20
-RobotClub_footprint
-GitHub_QR_Alice_F3000_debugger
-
-
-0
-0
-0
-RobotClub_footprint
-GitHub_QR_UNO_Bootloader_Burner
-
-
-0
-0
-0
-RobotClub_footprint
-HDSM-441B_HDSM-443B
-2 Digit 7 segemnt blue LED, right hand decimal, https://docs.broadcom.com/docs/AV02-1589EN
-2 Digit 7 segment blue LED
-0
-10
-10
-RobotClub_footprint
-HDSM-541B_HDSM-543B
-2 digit 7 segement blue LED with right hand decimal, https://docs.broadcom.com/docs/AV02-1588EN
-2 digit 7 segement blue LED with right hand decimal
-0
-10
-10
-RobotClub_footprint
-HDSP-48xx
-10-Element Bar Graph Array https://docs.broadcom.com/docs/AV02-1798EN
-10-Element Bar Graph Array
-0
-20
-20
-RobotClub_footprint
-HDSP-4830
-10-Element Red Bar Graph Array https://docs.broadcom.com/docs/AV02-1798EN
-10-Element Red Bar Graph Array
-0
-20
-20
-RobotClub_footprint
-HDSP-4832
-10-Element Red Yellow Green Bar Graph Array https://docs.broadcom.com/docs/AV02-1798EN
-10-Element Red Yellow Green Bar Graph Array
-0
-20
-20
-RobotClub_footprint
-HDSP-4836
-10-Element Red Yellow Green Bar Graph Array https://docs.broadcom.com/docs/AV02-1798EN
-10-Element Red Yellow Green Bar Graph Array
-0
-20
-20
-RobotClub_footprint
-HDSP-4840
-10-Element Yellow Bar Graph Array https://docs.broadcom.com/docs/AV02-1798EN
-10-Element Yellow Bar Graph Array
-0
-20
-20
-RobotClub_footprint
-HDSP-4850
-10-Element Green Bar Graph Array https://docs.broadcom.com/docs/AV02-1798EN
-10-Element Green Bar Graph Array
-0
-20
-20
-RobotClub_footprint
-HLCP-J100
-10-Element Red Bar Graph Array https://docs.broadcom.com/docs/AV02-1798EN
-10-Element Red Bar Graph Array
-0
-20
-20
-RobotClub_footprint
-HY1602E
-http://www.icbank.com/data/ICBShop/board/HY1602E.pdf
-LCD 16x2 Alphanumeric 16pin
-0
-20
-16
-RobotClub_footprint
-HeatSink
-
-
-0
-0
-0
-RobotClub_footprint
-IM920C
-
-
-0
-21
-20
-RobotClub_footprint
-IS-2235
-
-
-0
-6
-6
-RobotClub_footprint
-LCD-016N002L
-16 x 2 Character LCD, http://www.vishay.com/product?docid=37299
-LCD-016N002L 16 x 2 Character LCD
-0
-24
-20
-RobotClub_footprint
-LM16255
-LCD LM16255 16x2 character http://www.datasheetlib.com/datasheet/259542/lm16255_sharp-electronics.html
-LCD 12x2
-0
-14
-14
-RobotClub_footprint
-LTSN-B32JEGBB-LY
-
-
-0
-4
-4
-RobotClub_footprint
-NHD-0420H1Z
-NHD-0420H1Z LCD http://www.newhavendisplay.com/specs/NHD-0420H1Z-FSW-GBW-33V3.pdf
-NHD-0420H1Z LCD
-0
-16
-16
-RobotClub_footprint
-NHD-C0220BiZ
-NHD-C0220BiZ LCD http://www.newhavendisplay.com/specs/NHD-C0220BiZ-FSW-FBW-3V3M.pdf
-NHD-C0220BiZ LCD
-0
-10
-10
-RobotClub_footprint
-NR72AB0
-
-
-0
-2
-2
-RobotClub_footprint
-NX3215SA
-
-
-0
-2
-2
-RobotClub_footprint
-OKL_T6_W12
-
-
-0
-17
-12
-RobotClub_footprint
-OLED-128O064D
-128x64 OLED display
-display oled
-0
-30
-30
-RobotClub_footprint
-OSL10321-LR
-
-
-0
-10
-10
-RobotClub_footprint
-PinHeader_1x04_P2.54mm_Horizontal_Mirror
-Through hole angled pin header, 1x04, 2.54mm pitch, 6mm pin length, single row
-Through hole angled pin header THT 1x04 2.54mm single row
-0
-4
-4
-RobotClub_footprint
-PinHeader_2x20_P2.54mm_Horizontal_Mirror
-Through hole angled pin header, 2x20, 2.54mm pitch, 6mm pin length, double rows
-Through hole angled pin header THT 2x20 2.54mm double row
-0
-40
-40
-RobotClub_footprint
-Pudenz_FuseHolder
-
-
-0
-8
-2
-RobotClub_footprint
-RC1602A
-http://www.raystar-optronics.com/down.php?ProID=18
-LCD 16x2 Alphanumeric 16pin
-0
-22
-18
-RobotClub_footprint
-Relay
-
-
-0
-8
-8
-RobotClub_footprint
-SIP7
-
-
-0
-7
-7
-RobotClub_footprint
-SOT-23A
-
-
-0
-3
-3
-RobotClub_footprint
-SS14MDP2
-SS14MDP2-2
-Switch
-0
-4
-4
-RobotClub_footprint
-Speaker
-
-
-0
-2
-2
-RobotClub_footprint
-TPH11006NL
-
-
-0
-9
-3
-RobotClub_footprint
-TPH11006NL_s
-
-
-0
-0
-0
-RobotClub_footprint
-TSON_Advance
-
-
-0
-9
-3
-RobotClub_footprint
-TVAF06-A020B-R
-
-
-0
-4
-2
-RobotClub_footprint
-T_conector_male
-
-
-0
-2
-2
-RobotClub_footprint
-T_connecter_female_horizontal
-
-
-0
-2
-2
-RobotClub_footprint
-T_connector_femla
-
-
-0
-2
-2
-RobotClub_footprint
-USB micro B 2pin
-
-
-0
-4
-2
-RobotClub_footprint
-USB-Mini-B
-
-
-0
-9
-6
-RobotClub_footprint
-WC1602A
-LCD 16x2 http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf
-LCD 16x2 Alphanumeric 16pin
-0
-20
-16
-RobotClub_footprint
-XT60PW-F
-
-
-0
-4
-2
-RobotClub_footprint
-XT60PW-M
-
-
-0
-4
-2
-RobotClub_footprint
-rotary_DIP_SW_16
-
-
-0
-0
-0
-RobotClub_footprint
-switch_smd
-
-
-0
-2
-2
 Rotary_Encoder
 RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm
 Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
@@ -84594,3 +84090,10 @@ IM920(IM920c_ADP)
 0
 29
 26
+interplan
+IM920c
+
+
+0
+0
+0
